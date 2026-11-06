@@ -4,7 +4,7 @@ Prepared 2026-11-06. The owner explicitly authorized publication in the working 
 
 - Public package consists of newly written summaries, high-level diagrams and public-page screenshots.
 - No application source, original internal documents, environment files, credentials, database dumps or customer records are intentionally included.
-- The two screenshots were visually reviewed; no signed-in account or customer-order information is shown.
+- The original two anonymous captures and seven additional developer-supplied captures were visually reviewed. The supplied seller dashboard shows aggregate zero values and shop identity, with no customer list. Payment-account and tracking-code screenshots were excluded; a duplicate summary was omitted.
 - Business outcomes remain unknown; source observations and requirements are distinguished from tested behavior.
 - AI-assisted analysis/writing is disclosed. Individual implementation attribution remains unverified.
 - No source-code license or ownership assignment is added. Ownership/permission for displayed branding and interface assets needs the owner's confirmation; no third-party license audit was performed.

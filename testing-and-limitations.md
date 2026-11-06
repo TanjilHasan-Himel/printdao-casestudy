@@ -10,6 +10,7 @@
 | Build configuration inspection | VERIFIED | Production build configuration bypasses TypeScript and ESLint failures |
 | Public landing/login browser capture | VERIFIED rendering only | Public interfaces rendered without authentication |
 | Narrow login viewport | VERIFIED visual limitation | Right-side content is clipped in the captured browser window; mobile-device behavior needs separate testing |
+| Additional developer-supplied screenshots | VERIFIED visual inspection only | Customer, discovery and seller interfaces are visible; capture dates, environment and end-to-end behavior are not independently established |
 
 No application test command is declared in the inspected web package. No application test suite was executed in this review. Passing a deployment build would not establish a clean type/lint result with the current bypass configuration.
 
