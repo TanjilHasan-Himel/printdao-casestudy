@@ -1,12 +1,32 @@
-# Printdao — Product & Engineering Case Study
+# Printdao — Real-world Hybrid Print Bridge
 
-Guest-first print ordering for university-area print shops in Bangladesh.
+Zero-friction QR upload and a cloud-to-desktop print bridge for photocopy shops.
+
+**Developer:** Tanjil Hasan Himel
 
 [Live website](https://printdao.vercel.app/) · Portfolio by [Tanjil Hasan Himel](https://github.com/TanjilHasan-Himel)
 
-![Printdao live landing page](screenshots/landing-desktop.png)
+![Printdao customer landing page, supplied by the developer](screenshots/customer-landing.png)
 
 Printdao connects a student's browser, a shop owner's dashboard and a Windows print bridge. Its product goal is simple: submit and track a print order without creating a student account, while preserving the shop owner's control over payment verification and printing.
+
+## Overview and how to explore
+
+An AI-assisted hybrid cloud-to-desktop project addressing multi-tenant order management and local printer constraints. The web application supports the ordering interface; the Windows bridge connects the workflow to shop hardware. Physical printing has not been independently tested in this case-study review.
+
+**Developer-provided walkthrough:** Open the [live website](https://printdao.vercel.app/) and search for **FriendsCopy** to explore the customer interface, or create a shop account to explore the owner workflow. Availability and the full journey have not been revalidated for this update. The desktop software is not pictured; [contact the developer](https://github.com/TanjilHasan-Himel) to discuss access for a shop.
+
+## Technology
+
+| Layer | Technology |
+| --- | --- |
+| Web application | Next.js, React, TypeScript |
+| Backend and data | Supabase, PostgreSQL |
+| Local hardware integration | Python desktop bridge, Windows printing environment |
+
+## Project screenshots
+
+[View the customer and shop-owner gallery](screenshots/README.md): shop discovery, PDF upload, order summaries, seller landing page and dashboard. Supplied captures illustrate interfaces; they do not establish transaction success, physical output or measured business impact.
 
 ## Explore the work
 
